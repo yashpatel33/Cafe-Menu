@@ -1,22 +1,35 @@
 h1 {
     text-align: center;
+    font-family: Impact, serif;
+    margin-top: 0;
 }
 h2 {
     text-align: center;
+    font-family: Impact, serif;
 }
 p {
     text-align: center;
 }
- body {
+body {
     background-image: url(images/coffee-beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
  }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
 .menu {
     width: 80%;
+    max-width: 500px;
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
-.flavor {
+.flavor, .dessert {
     text-align: left;
     width: 75%;
 }
@@ -26,4 +39,25 @@ p {
 }
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+.established {
+    font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+
+  .bottom-line {
+    margin-top: 25px;
+  } 
+
+  /*    FOOTER    */
+footer {
+    font-size: 14px;
   }
